@@ -45,6 +45,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation(libs.hilt.android)
     implementation(libs.hilt.navegation.compose)
+    implementation(libs.androidx.material3)
     ksp(libs.hilt.compiler)
     implementation(platform(libs.http.bom))
     implementation(libs.http.okhttp)
